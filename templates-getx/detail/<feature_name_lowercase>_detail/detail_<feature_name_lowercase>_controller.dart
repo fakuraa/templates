@@ -1,6 +1,6 @@
 import 'package:get/get.dart';
 import 'package:<project_name>/data/remote/base/base_controller.dart';
-import 'package:detail_<feature_name_lowercase>_page.dart';
+import 'detail_<feature_name_lowercase>_page.dart';
 
 class Detail<feature_name>Controller extends BaseController {
   String tag = 'Detail<feature_name>Controller::->';
