@@ -57,7 +57,7 @@ class <feature_name>Page extends StatelessWidget {
                       physics: const NeverScrollableScrollPhysics(),
                       itemCount: controller.dataList.length,
                       itemBuilder: (context, index) {
-                        final item = controller.dataList[index];
+                        //final item = controller.dataList[index]; // ! use as u want
                         return const ListTile()
                             .marginSymmetric(horizontal: 16);
                       },
