@@ -1,9 +1,5 @@
-import 'package:flutter/material.dart';
-import 'package:<project_name>/data/remote/api_services.dart';
 import 'package:<project_name>/data/remote/base/base_controller.dart';
-import 'package:<project_name>/data/remote/errorhandler/error_handler.dart';
-import 'package:<project_name>/utills/localization/locale_helper.dart';
-import 'package:<feature_name_lowercase>_page.dart';
+import '<feature_name_lowercase>_page.dart';
 
 class <feature_name>Controller extends BaseController {
   String tag = '<feature_name>Controller::->';
