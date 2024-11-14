@@ -17,10 +17,7 @@ class Detail<feature_name>Page extends StatelessWidget {
     return GetBuilder<Detail<feature_name>Controller>(builder: (controller) {
       return Scaffold(
         backgroundColor: AppColors.background,
-        appBar: SMAppBar.primaryAppbar(
-          titleString:
-              controller.isObjection ? 'txt_detail_objc'.tr : 'txt_dr_title'.tr,
-        ),
+        appBar: SMAppBar.primaryAppbar(),
         body: Obx(
           () => StateHandleWidget(
             loadingEnabled: controller.isShimmering,
