@@ -2,8 +2,8 @@ import 'package:get/get.dart';
 import 'package:<project_name>/data/remote/base/base_controller.dart';
 import 'package:detail_<feature_name_lowercase>_page.dart';
 
-class DetailRequestController extends BaseController {
-  String tag = 'DetailRequestController::->';
+class Detail<feature_name>Controller extends BaseController {
+  String tag = 'Detail<feature_name>Controller::->';
 
   Map<String, dynamic>? id;
 
